@@ -1,0 +1,23 @@
+# .gitignore
+*.log
+*.env
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+*.iml
+target/
+build/
+dist/
+
+# Docker volumes
+data/
+postgres-data/
+mongo-data/
+elastic-data/
+kafka-data/
+zookeeper-data/
